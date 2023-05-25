@@ -1,1 +1,1 @@
-println!("{}", same);
+    // println!("{}", a[9]);  

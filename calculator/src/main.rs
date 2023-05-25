@@ -1,13 +1,17 @@
 fn main() {
 
-    let num_list = [1,2,3,4,5];
-    let months = ["January", "February", "March"];
+    let a = [1,2,3,4,5];
+    let b = ["hi","hi","hi","hi","hi"];
+    let mut index = 0;
+    let mut hi = 0;
 
-    let num_list2:[i32; 5] = [1,2,3,4,5];
+    while index<5 {
+        println!("{}",a[index]);
+        index = index + 1;
+    }
 
-    let same = ["Hi"; 10];
-
-    println!("{}", num_list[0]);
-    println!("{}", same[9]);   
-
+    while hi<5 {
+        println!("{}",b[hi]);
+        hi = hi + 1;
+    }
 }
